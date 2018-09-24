@@ -81,6 +81,7 @@ router.post('/login', function (req, res, next) {
   console.log("The Body is", req.body)
   if (req.body.email == "alex.coleman@cnbp.com" && req.body.password == "123456") {
     global.login = true;
+    global.success = true;
     return res.redirect('/');
   } else {
     global.success = false;
