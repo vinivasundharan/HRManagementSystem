@@ -5,7 +5,7 @@ new Chart(document.getElementById("mixed-chart"), {
         datasets: [{
             label: "Europe",
             type: "line",
-            borderColor: "#b71c1c",
+            borderColor: "#4caf50",
             data: [87, 79, 92, 100, 87, 93, 86, 76, 89, 107, 89],
             fill: false
         }, {
@@ -56,7 +56,7 @@ new Chart(document.getElementById("doughnut-chart1"), {
         datasets: [
             {
                 label: "Population (millions)",
-                backgroundColor: ["#78909c", "#b71c1c"],
+                backgroundColor: ["#78909c", "#4caf50"],
                 data: [20, 80]
             }
         ]
