@@ -6,13 +6,13 @@ new Chart(document.getElementById("mixed-chart"), {
             label: "Europe",
             type: "line",
             borderColor: "#b71c1c",
-            data: [87, 79, 92, 110, 87, 93, 86, 76, 89, 112, 76],
+            data: [87, 79, 92, 100, 87, 93, 86, 76, 89, 107, 89],
             fill: false
         }, {
             label: "Europe",
             type: "bar",
             backgroundColor: "#01579b",
-            data: [90, 120, 90, 89, 53, 90, 78, 79, 98, 65, 34, 67],
+            data: [90, 113, 90, 110, 78, 90, 78, 79, 98, 112, 85],
         }
 
         ]
@@ -34,7 +34,7 @@ new Chart(document.getElementById("doughnut-chart"), {
             {
                 label: "Population (millions)",
                 backgroundColor: ["#4caf50", "#b71c1c"],
-                data: [1, 110]
+                data: [0, 110]
             }
         ]
     },
@@ -42,7 +42,10 @@ new Chart(document.getElementById("doughnut-chart"), {
         title: {
             display: false,
             text: 'Predicted world population (millions) in 2050'
-        }
+        },
+        legend: {
+            display: true
+        },
     }
 });
 
@@ -53,7 +56,7 @@ new Chart(document.getElementById("doughnut-chart1"), {
         datasets: [
             {
                 label: "Population (millions)",
-                backgroundColor: ["#4caf50", "#b71c1c"],
+                backgroundColor: ["#78909c", "#b71c1c"],
                 data: [20, 80]
             }
         ]
