@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 global.success = true;
-global.login = true;
+global.login = false;
 
 app.use(function (req, res, next) {
   if (req.url == '/login') return next();
