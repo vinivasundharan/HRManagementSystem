@@ -3,13 +3,13 @@ new Chart(document.getElementById("mixed-chart"), {
     data: {
         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Nov", "Dec"],
         datasets: [{
-            label: "Europe",
+            label: "Avg. past 5 years",
             type: "line",
             borderColor: "#4caf50",
             data: [87, 79, 92, 100, 87, 93, 86, 76, 89, 107, 89],
             fill: false
         }, {
-            label: "Europe",
+            label: "Man-hour",
             type: "bar",
             backgroundColor: "#01579b",
             data: [90, 113, 90, 110, 78, 90, 78, 79, 98, 112, 85],
@@ -22,14 +22,14 @@ new Chart(document.getElementById("mixed-chart"), {
             display: false,
             text: 'Population growth (millions): Europe & Africa'
         },
-        legend: { display: false }
+        legend: { display: true }
     }
 });
 
 new Chart(document.getElementById("doughnut-chart"), {
     type: 'doughnut',
     data: {
-        labels: ["Capability", "Used Resources"],
+        labels: ["Capability -10%", "Used Resources 110%"],
         datasets: [
             {
                 label: "Population (millions)",
@@ -52,7 +52,7 @@ new Chart(document.getElementById("doughnut-chart"), {
 new Chart(document.getElementById("doughnut-chart1"), {
     type: 'doughnut',
     data: {
-        labels: ["Capability", "Used Resources"],
+        labels: ["Capability 20%", "Used Resources 80%"],
         datasets: [
             {
                 label: "Population (millions)",
