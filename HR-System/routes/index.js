@@ -24,6 +24,19 @@ router.get('/vacation', function (req, res, next) {
 });
 
 
+/*get kpis definitions*/
+router.get('/retention', function (req, res, next) {
+  res.render('kpiDefinitions/retentionOfTalent');
+});
+
+router.get('/absenteeism', function (req, res, next) {
+  res.render('kpiDefinitions/absenteeism');
+});
+
+router.get('/positionDuration', function (req, res, next) {
+  res.render('kpiDefinitions/positionDuration');
+});
+
 
 /* GET Communication  page. */
 router.get('/communication', function (req, res, next) {
