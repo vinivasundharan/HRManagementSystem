@@ -1,31 +1,95 @@
 <link href="/css/search.css" rel="stylesheet" id="bootstrap-css">
+<style>
+    #profile {
+        height: auto;
+        width: auto;
+        max-width: 150px;
+        max-height: 150px;
+
+    }
+</style>
 
 
+<hgroup class="mb20">
+    <h1>Search Results</h1>
+    <h2 class="lead"><strong class="text-danger">1</strong> results were found for the search for <strong class="text-danger">Peter
+            Röhm</strong></h2>
+</hgroup>
 
-    <hgroup class="mb20">
-		<h1>Search Results</h1>
-		<h2 class="lead"><strong class="text-danger">1</strong> results were found for the search for <strong class="text-danger">Peter Röhm</strong></h2>								
-	</hgroup>
+<section class="col-xs-12 col-sm-6 col-md-12">
+    <article class="search-result row">
+        <div class="col-xs-12 col-sm-12 col-md-3">
+            <a href="#" title="Lorem ipsum" class="thumbnail"><img alt="Employees" /></a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-2">
+            <ul class="meta-search">
+                <li><span>Last activity</span></li>
+                <li><span>12.09.2018</span></li>
+                <li><span>4:28 pm</span></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 excerpet">
+            <h3><a href="#" title="">Peter Röhm</a></h3>
+            <img class="card-img-top center" id="profile" src="/images/pr.png" alt=" Card image cap">
+            <br>
+            <a href="" data-toggle="modal" data-target="#profile1" >Click here to see the profile!</a>
 
-    <section class="col-xs-12 col-sm-6 col-md-12">
-		<article class="search-result row">
-			<div class="col-xs-12 col-sm-12 col-md-3">
-				<a href="#" title="Lorem ipsum" class="thumbnail"><img alt="Employees" /></a>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-2">
-				<ul class="meta-search">
-					<li><i class="glyphicon glyphicon-calendar"></i> <span>12.09.2018</span></li>
-					<li><i class="glyphicon glyphicon-time"></i> <span>4:28 pm</span></li>
-					<li><i class="glyphicon glyphicon-tags"></i> <span>People</span></li>
-				</ul>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-7 excerpet">
-				<h3><a href="#" title="">Found 6 Employees</a></h3>
-				<p>Click here to see the matches!</p>						
-                
-			</div>
-			<span class="clearfix borda"></span>
-		</article>
-		
+        </div>
+        <span class="clearfix borda"></span>
+    </article>
 
-	</section>
+
+</section>
+
+
+<div class="modal fade" id="profile1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Peter Röhm</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Department:</td>
+                                    <td>Production</td>
+                                </tr>
+                                <tr>
+                                    <td>Hire date:</td>
+                                    <td>06/23/2013</td>
+                                </tr>
+                                <tr>
+                                    <td>Date of Birth</td>
+                                    <td>01/24/1988</td>
+                                </tr>
+    
+                                <tr>
+                                <tr>
+                                    <td>Gender</td>
+                                    <td>Male</td>
+                                </tr>
+                                <tr>
+                                    <td>Home Address</td>
+                                    <td>Kathmandu,Nepal</td>
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <td><a href="mailto:info@support.com">peter@cnbp.com</a></td>
+                                </tr>
+                                <td>Phone Number</td>
+                                <td>123-4567-890(Landline)<br><br>555-4567-890(Mobile)
+                                </td>
+    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
