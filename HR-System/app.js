@@ -21,6 +21,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 global.success = true;
 global.login = false;
+global.index = 0;
 
 app.use(function (req, res, next) {
   if (req.url == '/login') return next();
