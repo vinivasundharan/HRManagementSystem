@@ -50,6 +50,12 @@ router.get('/accident', function (req, res, next) {
   res.render('kpiDefinitions/accident');
 });
 
+
+router.get('/myprofile', function (req, res, next) {
+  res.render('myprofile');
+});
+
+
 /* GET Communication  page. */
 router.get('/communication', function (req, res, next) {
   global.index = 2;
