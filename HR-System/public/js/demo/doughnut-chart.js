@@ -72,7 +72,7 @@ new Chart(document.getElementById("doughnut-chart1"), {
 new Chart(document.getElementById("doughnut-chart2"), {
     type: 'doughnut',
     data: {
-        labels: ["Capability 20%", "Used Resources 80%"],
+        labels: ["Capability 56%", "Used Resources 44%"],
         datasets: [
             {
                 label: "Population (millions)",
@@ -92,7 +92,7 @@ new Chart(document.getElementById("doughnut-chart2"), {
 new Chart(document.getElementById("doughnut-chart3"), {
     type: 'doughnut',
     data: {
-        labels: ["Capability 20%", "Used Resources 80%"],
+        labels: ["Capability 89%", "Used Resources 11%"],
         datasets: [
             {
                 label: "Population (millions)",
