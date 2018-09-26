@@ -68,3 +68,44 @@ new Chart(document.getElementById("doughnut-chart1"), {
         }
     }
 });
+
+new Chart(document.getElementById("doughnut-chart2"), {
+    type: 'doughnut',
+    data: {
+        labels: ["Capability 20%", "Used Resources 80%"],
+        datasets: [
+            {
+                label: "Population (millions)",
+                backgroundColor: ["#78909c", "#4caf50"],
+                data: [56, 44]
+            }
+        ]
+    },
+    options: {
+        title: {
+            display: false,
+            text: 'Predicted world population (millions) in 2050'
+        }
+    }
+});
+
+new Chart(document.getElementById("doughnut-chart3"), {
+    type: 'doughnut',
+    data: {
+        labels: ["Capability 20%", "Used Resources 80%"],
+        datasets: [
+            {
+                label: "Population (millions)",
+                backgroundColor: ["#78909c", "#4caf50"],
+                data: [89, 11]
+            }
+        ]
+    },
+    options: {
+        title: {
+            display: false,
+            text: 'Predicted world population (millions) in 2050'
+        }
+    }
+});
+

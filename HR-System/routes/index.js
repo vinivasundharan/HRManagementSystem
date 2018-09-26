@@ -3,11 +3,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
+  global.index = 0;
   res.render('index');
 });
 
 /* GET Employee Management page. */
 router.get('/employeeManagement', function (req, res, next) {
+  global.index = 1;
   res.render('employeeManagement');
 });
 
@@ -47,6 +49,7 @@ router.get('/accident', function (req, res, next) {
 
 /* GET Communication  page. */
 router.get('/communication', function (req, res, next) {
+  global.index = 2;
   res.render('communication');
 });
 
@@ -61,16 +64,19 @@ router.get('/reports', function (req, res, next) {
 
 /* GET Survey page. */
 router.get('/surveys', function (req, res, next) {
+  global.index = 3;
   res.render('surveys');
 });
 
 /* GET kpi page. */
 router.get('/kpis', function (req, res, next) {
+  global.index = 4;
   res.render('kpi');
 });
 
 /* GET Workforce page. */
 router.get('/workforce', function (req, res, next) {
+  global.index = 5;
   res.render('workforce');
 });
 
