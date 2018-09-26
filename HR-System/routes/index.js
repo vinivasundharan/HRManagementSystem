@@ -37,6 +37,13 @@ router.get('/positionDuration', function (req, res, next) {
   res.render('kpiDefinitions/positionDuration');
 });
 
+router.get('/averageTimeToGoal', function (req, res, next) {
+  res.render('kpiDefinitions/averageTimeToGoal');
+});
+
+router.get('/accident', function (req, res, next) {
+  res.render('kpiDefinitions/accident');
+});
 
 /* GET Communication  page. */
 router.get('/communication', function (req, res, next) {
