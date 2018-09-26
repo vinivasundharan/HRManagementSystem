@@ -29,6 +29,10 @@ router.get('/search', function (req, res, next) {
   res.render('search');
 });
 
+router.get('/myprofile', function (req, res, next) {
+  res.render('myprofile');
+});
+
 /*get kpis definitions*/
 router.get('/retention', function (req, res, next) {
   res.render('kpiDefinitions/retentionOfTalent');
