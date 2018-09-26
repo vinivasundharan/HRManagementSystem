@@ -25,6 +25,9 @@ router.get('/vacation', function (req, res, next) {
   res.render('employee/vacation');
 });
 
+router.get('/search', function (req, res, next) {
+  res.render('search');
+});
 
 /*get kpis definitions*/
 router.get('/retention', function (req, res, next) {
